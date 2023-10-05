@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>Список клиентов: </h3>
+<table>
+    {% for client in clients %}
+    <tr>
+        <td><a>Имя клиента: {{ client.name }}</a></td>
+    </tr>>
+    {% endfor %}
+</table>
+{% endblock %}

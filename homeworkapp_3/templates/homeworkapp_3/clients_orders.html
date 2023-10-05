@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ client.name }}'s orders{% endblock %}
+
+{% block content %}
+<h2>Заказы клиента: {{ client.name }}</h2>
+{% if orders %}
+<table>
+    {% for order in orders %}
+    <tr>
+        <td><a href="{% url 'order_full' order.id %}">{{order.products }}</a>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>Клиент пока ничего не заказал</p>
+{% endif %}
+{% endblock %}
