@@ -11,3 +11,1428 @@ INFO 2023-09-29 23:21:34,420 basehttp 9748 10920 "GET / HTTP/1.1" 200 116
 INFO 2023-09-29 23:21:34,478 views 9748 10920 Index page accessed
 INFO 2023-09-29 23:21:34,479 basehttp 9748 10920 "GET / HTTP/1.1" 200 116
 INFO 2023-09-29 23:39:27,205 autoreload 10620 3660 Watching for file changes with StatReloader
+INFO 2023-10-03 18:42:26,321 autoreload 9132 15232 Watching for file changes with StatReloader
+INFO 2023-10-03 21:08:26,984 autoreload 12212 10432 Watching for file changes with StatReloader
+INFO 2023-10-03 21:12:50,110 autoreload 12212 10432 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp1\urls.py changed, reloading.
+INFO 2023-10-03 21:12:50,583 autoreload 6532 516 Watching for file changes with StatReloader
+INFO 2023-10-03 21:12:53,943 views 6532 4236 Index page accessed
+INFO 2023-10-03 21:12:53,944 basehttp 6532 4236 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-03 21:12:54,126 log 6532 4236 Not Found: /favicon.ico
+WARNING 2023-10-03 21:12:54,128 basehttp 6532 4236 "GET /favicon.ico HTTP/1.1" 404 3101
+INFO 2023-10-03 21:13:06,968 basehttp 6532 4236 "GET /about/ HTTP/1.1" 200 64
+INFO 2023-10-03 23:06:50,109 autoreload 6532 516 C:\Users\nmsk6\PycharmProjects\djangohomework\djangohomework\settings.py changed, reloading.
+INFO 2023-10-03 23:06:51,324 autoreload 5676 5924 Watching for file changes with StatReloader
+INFO 2023-10-03 23:15:51,344 views 5676 9184 Index page accessed
+INFO 2023-10-03 23:15:51,347 basehttp 5676 9184 "GET / HTTP/1.1" 200 116
+INFO 2023-10-03 23:15:53,894 views 5676 9184 Index page accessed
+INFO 2023-10-03 23:15:53,895 basehttp 5676 9184 "GET / HTTP/1.1" 200 116
+INFO 2023-10-03 23:16:09,740 basehttp 5676 9184 "GET /about/ HTTP/1.1" 200 64
+INFO 2023-10-05 00:50:03,072 autoreload 15124 380 Watching for file changes with StatReloader
+INFO 2023-10-05 00:52:31,629 autoreload 15124 380 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp3\views.py changed, reloading.
+INFO 2023-10-05 00:52:32,089 autoreload 9072 3884 Watching for file changes with StatReloader
+INFO 2023-10-05 00:52:45,048 views 9072 6780 Index page accessed
+INFO 2023-10-05 00:52:45,049 basehttp 9072 6780 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 00:52:45,290 log 9072 6780 Not Found: /favicon.ico
+WARNING 2023-10-05 00:52:45,290 basehttp 9072 6780 "GET /favicon.ico HTTP/1.1" 404 3429
+INFO 2023-10-05 01:42:25,614 autoreload 8740 12984 Watching for file changes with StatReloader
+INFO 2023-10-05 01:43:59,786 autoreload 8740 12984 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp2\urls.py changed, reloading.
+INFO 2023-10-05 02:07:15,925 autoreload 388 14712 Watching for file changes with StatReloader
+INFO 2023-10-05 02:07:24,139 views 388 532 Index page accessed
+INFO 2023-10-05 02:07:24,140 basehttp 388 532 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 02:07:24,306 log 388 532 Not Found: /favicon.ico
+WARNING 2023-10-05 02:07:24,308 basehttp 388 532 "GET /favicon.ico HTTP/1.1" 404 3429
+INFO 2023-10-05 02:27:26,269 autoreload 1892 7496 Watching for file changes with StatReloader
+INFO 2023-10-05 03:18:34,931 autoreload 8240 5496 Watching for file changes with StatReloader
+INFO 2023-10-05 03:19:25,443 autoreload 8240 5496 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:19:25,900 autoreload 7048 4080 Watching for file changes with StatReloader
+INFO 2023-10-05 03:20:48,047 autoreload 13936 13044 Watching for file changes with StatReloader
+ERROR 2023-10-05 03:21:14,888 log 13936 1672 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 25, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_goods' not found. 'get_client_goods' is not a valid view function or pattern name.
+ERROR 2023-10-05 03:21:14,895 basehttp 13936 1672 "GET /client_list/ HTTP/1.1" 500 205300
+WARNING 2023-10-05 03:21:15,053 log 13936 1672 Not Found: /favicon.ico
+WARNING 2023-10-05 03:21:15,053 basehttp 13936 1672 "GET /favicon.ico HTTP/1.1" 404 3608
+INFO 2023-10-05 03:29:43,466 autoreload 13936 13044 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:29:43,957 autoreload 8096 15228 Watching for file changes with StatReloader
+INFO 2023-10-05 03:32:44,191 autoreload 8096 15228 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:32:44,676 autoreload 8544 2100 Watching for file changes with StatReloader
+INFO 2023-10-05 03:34:11,806 autoreload 8544 2100 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:34:12,303 autoreload 7332 10540 Watching for file changes with StatReloader
+INFO 2023-10-05 03:42:56,728 autoreload 7332 10540 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:42:57,230 autoreload 2516 15340 Watching for file changes with StatReloader
+ERROR 2023-10-05 03:43:01,871 log 2516 9164 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_products' not found. 'get_client_products' is not a valid view function or pattern name.
+ERROR 2023-10-05 03:43:01,878 basehttp 2516 9164 "GET /client_list/ HTTP/1.1" 500 206440
+ERROR 2023-10-05 03:43:04,347 log 2516 9164 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_products' not found. 'get_client_products' is not a valid view function or pattern name.
+ERROR 2023-10-05 03:43:04,352 basehttp 2516 9164 "GET /client_list/ HTTP/1.1" 500 206440
+ERROR 2023-10-05 03:44:49,483 log 2516 9164 Internal Server Error: /client_products/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_client_products() missing 1 required positional argument: 'customer'
+ERROR 2023-10-05 03:44:49,484 basehttp 2516 9164 "GET /client_products/ HTTP/1.1" 500 61144
+INFO 2023-10-05 03:46:20,747 autoreload 2516 15340 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:46:21,230 autoreload 2292 8484 Watching for file changes with StatReloader
+ERROR 2023-10-05 03:46:23,072 log 2292 11176 Internal Server Error: /client_products/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_client_products() missing 1 required positional argument: 'customer'
+ERROR 2023-10-05 03:46:23,074 basehttp 2292 11176 "GET /client_products/ HTTP/1.1" 500 61281
+ERROR 2023-10-05 03:46:25,535 log 2292 11176 Internal Server Error: /client_products/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_client_products() missing 1 required positional argument: 'customer'
+ERROR 2023-10-05 03:46:25,537 basehttp 2292 11176 "GET /client_products/ HTTP/1.1" 500 61281
+ERROR 2023-10-05 03:46:38,446 log 2292 11176 Internal Server Error: /client_products/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_client_products() missing 1 required positional argument: 'customer'
+ERROR 2023-10-05 03:46:38,447 basehttp 2292 11176 "GET /client_products/ HTTP/1.1" 500 61281
+INFO 2023-10-05 03:50:05,793 autoreload 2292 8484 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 03:50:06,294 autoreload 3348 11480 Watching for file changes with StatReloader
+ERROR 2023-10-05 03:50:18,859 log 3348 1668 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_products' not found. 'get_client_products' is not a valid view function or pattern name.
+ERROR 2023-10-05 03:50:18,865 basehttp 3348 1668 "GET /client_list/ HTTP/1.1" 500 206331
+INFO 2023-10-05 09:17:45,169 autoreload 14972 12016 Watching for file changes with StatReloader
+INFO 2023-10-05 09:17:57,306 views 14972 4912 Index page accessed
+INFO 2023-10-05 09:17:57,307 basehttp 14972 4912 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 09:17:57,556 log 14972 4912 Not Found: /favicon.ico
+WARNING 2023-10-05 09:17:57,557 basehttp 14972 4912 "GET /favicon.ico HTTP/1.1" 404 3795
+ERROR 2023-10-05 09:18:47,638 log 14972 4912 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_products' not found. 'get_client_products' is not a valid view function or pattern name.
+ERROR 2023-10-05 09:18:47,643 basehttp 14972 4912 "GET /client_list/ HTTP/1.1" 500 206776
+ERROR 2023-10-05 09:20:14,176 log 14972 4912 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_clients' not found. 'get_clients' is not a valid view function or pattern name.
+ERROR 2023-10-05 09:20:14,180 basehttp 14972 4912 "GET /client_list/ HTTP/1.1" 500 206721
+ERROR 2023-10-05 09:20:20,587 log 14972 4912 Internal Server Error: /client_list/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_clients' not found. 'get_clients' is not a valid view function or pattern name.
+ERROR 2023-10-05 09:20:20,593 basehttp 14972 4912 "GET /client_list/ HTTP/1.1" 500 206721
+INFO 2023-10-05 09:29:09,666 autoreload 14972 12016 C:\Users\nmsk6\PycharmProjects\djangohomework\djangohomework\settings.py changed, reloading.
+INFO 2023-10-05 09:29:10,196 autoreload 11484 10808 Watching for file changes with StatReloader
+INFO 2023-10-05 10:12:32,527 autoreload 11484 10808 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 10:12:33,783 autoreload 14112 2844 Watching for file changes with StatReloader
+INFO 2023-10-05 10:36:13,668 autoreload 15040 2656 Watching for file changes with StatReloader
+INFO 2023-10-05 10:37:39,924 autoreload 15040 2656 C:\Users\nmsk6\PycharmProjects\djangohomework\djangohomework\settings.py changed, reloading.
+INFO 2023-10-05 10:37:40,432 autoreload 12776 11720 Watching for file changes with StatReloader
+INFO 2023-10-05 11:10:55,893 autoreload 8176 9188 Watching for file changes with StatReloader
+INFO 2023-10-05 11:14:29,579 views 8176 14028 Index page accessed
+INFO 2023-10-05 11:14:29,580 basehttp 8176 14028 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 11:14:29,848 log 8176 14028 Not Found: /favicon.ico
+WARNING 2023-10-05 11:14:29,850 basehttp 8176 14028 "GET /favicon.ico HTTP/1.1" 404 3815
+INFO 2023-10-05 11:15:08,422 basehttp 8176 14028 "GET /about/ HTTP/1.1" 200 64
+ERROR 2023-10-05 11:15:23,680 log 8176 14028 Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_products' with arguments '('',)' not found. 1 pattern(s) tried: ['get_client_products/(?P<customer>[0-9]+)\\Z']
+ERROR 2023-10-05 11:15:23,686 basehttp 8176 14028 "GET /clients/ HTTP/1.1" 500 209916
+WARNING 2023-10-05 11:15:50,448 log 8176 14028 Not Found: /clients/3
+WARNING 2023-10-05 11:15:50,449 basehttp 8176 14028 "GET /clients/3 HTTP/1.1" 404 3809
+INFO 2023-10-05 11:20:21,552 autoreload 8176 9188 C:\Users\nmsk6\PycharmProjects\djangohomework\djangohomework\urls.py changed, reloading.
+INFO 2023-10-05 11:20:22,019 autoreload 13492 8004 Watching for file changes with StatReloader
+INFO 2023-10-05 11:20:24,411 views 13492 14368 Index page accessed
+INFO 2023-10-05 11:20:24,412 basehttp 13492 14368 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 11:20:24,588 log 13492 14368 Not Found: /favicon.ico
+WARNING 2023-10-05 11:20:24,589 basehttp 13492 14368 "GET /favicon.ico HTTP/1.1" 404 3795
+ERROR 2023-10-05 11:20:38,782 log 13492 14368 Internal Server Error: /clients/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 28, in get_clients
+    return render(request, 'homeworkapp_3/client_list.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'get_client_products' with arguments '('',)' not found. 1 pattern(s) tried: ['get_client_products/\\Z']
+ERROR 2023-10-05 11:20:38,787 basehttp 13492 14368 "GET /clients/ HTTP/1.1" 500 208272
+INFO 2023-10-05 11:22:59,671 basehttp 13492 14368 "GET /clients/ HTTP/1.1" 200 1269
+ERROR 2023-10-05 11:24:53,200 log 13492 14368 Internal Server Error: /get_client_products/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: get_client_products() missing 1 required positional argument: 'customer'
+ERROR 2023-10-05 11:24:53,202 basehttp 13492 14368 "GET /get_client_products/ HTTP/1.1" 500 61180
+INFO 2023-10-05 11:26:55,959 autoreload 13492 8004 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:26:56,518 autoreload 8384 3908 Watching for file changes with StatReloader
+ERROR 2023-10-05 11:26:57,919 log 8384 10464 Internal Server Error: /get_client_products/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 46, in get_client_products
+    client = Client.objects.get(pk=customer)
+NameError: name 'customer' is not defined
+ERROR 2023-10-05 11:26:57,921 basehttp 8384 10464 "GET /get_client_products/ HTTP/1.1" 500 65038
+INFO 2023-10-05 11:30:44,964 autoreload 8384 3908 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:30:45,458 autoreload 5480 13160 Watching for file changes with StatReloader
+INFO 2023-10-05 11:33:08,890 autoreload 5480 13160 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:33:09,365 autoreload 13952 14132 Watching for file changes with StatReloader
+INFO 2023-10-05 11:34:10,431 autoreload 13952 14132 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:34:10,896 autoreload 8368 12700 Watching for file changes with StatReloader
+INFO 2023-10-05 11:34:48,908 autoreload 8368 12700 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:34:49,414 autoreload 10700 5724 Watching for file changes with StatReloader
+INFO 2023-10-05 11:37:16,071 autoreload 10700 5724 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:37:16,547 autoreload 14232 7996 Watching for file changes with StatReloader
+INFO 2023-10-05 11:47:09,592 autoreload 14232 7996 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 11:47:10,072 autoreload 6824 10692 Watching for file changes with StatReloader
+INFO 2023-10-05 11:51:06,436 autoreload 6824 10692 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\urls.py changed, reloading.
+INFO 2023-10-05 11:51:06,919 autoreload 2712 7964 Watching for file changes with StatReloader
+INFO 2023-10-05 11:55:05,294 autoreload 2712 7964 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\urls.py changed, reloading.
+INFO 2023-10-05 11:55:05,812 autoreload 10044 5856 Watching for file changes with StatReloader
+INFO 2023-10-05 11:55:46,907 autoreload 10044 5856 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\urls.py changed, reloading.
+INFO 2023-10-05 11:55:47,367 autoreload 9520 10300 Watching for file changes with StatReloader
+INFO 2023-10-05 12:49:14,978 autoreload 9520 10300 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 12:49:16,248 autoreload 12228 11984 Watching for file changes with StatReloader
+INFO 2023-10-05 12:50:39,063 views 12228 13392 Index page accessed
+INFO 2023-10-05 12:50:39,064 basehttp 12228 13392 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 12:50:39,264 log 12228 13392 Not Found: /favicon.ico
+WARNING 2023-10-05 12:50:39,265 basehttp 12228 13392 "GET /favicon.ico HTTP/1.1" 404 4004
+ERROR 2023-10-05 12:51:04,247 log 12228 13392 Internal Server Error: /clients_order/1/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 31, in clients_orders
+    orders = Order.objects.filter(client=client)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id, total_price
+ERROR 2023-10-05 12:51:04,250 basehttp 12228 13392 "GET /clients_order/1/ HTTP/1.1" 500 126187
+INFO 2023-10-05 13:34:38,460 autoreload 12228 11984 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 13:34:38,939 autoreload 11804 8512 Watching for file changes with StatReloader
+ERROR 2023-10-05 13:34:40,010 log 11804 4732 Internal Server Error: /clients_order/1/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 32, in clients_orders
+    return render(request, 'homework_3/clients_orders.html', {'customer': client, 'orders': orders})
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homework_3/clients_orders.html
+ERROR 2023-10-05 13:34:40,013 basehttp 11804 4732 "GET /clients_order/1/ HTTP/1.1" 500 81346
+INFO 2023-10-05 13:36:29,054 autoreload 11804 8512 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 13:36:29,524 autoreload 7720 12932 Watching for file changes with StatReloader
+ERROR 2023-10-05 13:36:30,122 log 7720 14232 Internal Server Error: /clients_order/1/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 32, in clients_orders
+    return render(request, 'homework_3/clients_orders.html', {'customer': client_id, 'orders': orders})
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homework_3/clients_orders.html
+ERROR 2023-10-05 13:36:30,124 basehttp 7720 14232 "GET /clients_order/1/ HTTP/1.1" 500 81085
+ERROR 2023-10-05 13:36:31,916 log 7720 14232 Internal Server Error: /clients_order/1/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 32, in clients_orders
+    return render(request, 'homework_3/clients_orders.html', {'customer': client_id, 'orders': orders})
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homework_3/clients_orders.html
+ERROR 2023-10-05 13:36:31,918 basehttp 7720 14232 "GET /clients_order/1/ HTTP/1.1" 500 81085
+INFO 2023-10-05 13:37:30,618 autoreload 7720 12932 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 13:37:31,109 autoreload 11840 1076 Watching for file changes with StatReloader
+INFO 2023-10-05 13:45:19,076 autoreload 11840 1076 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 13:45:19,557 autoreload 13344 14812 Watching for file changes with StatReloader
+INFO 2023-10-05 13:52:15,305 views 13344 1320 Index page accessed
+INFO 2023-10-05 13:52:15,306 basehttp 13344 1320 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 13:52:15,491 log 13344 1320 Not Found: /favicon.ico
+WARNING 2023-10-05 13:52:15,492 basehttp 13344 1320 "GET /favicon.ico HTTP/1.1" 404 4004
+INFO 2023-10-05 13:52:16,136 autoreload 13344 14812 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 13:52:16,618 autoreload 13764 10868 Watching for file changes with StatReloader
+ERROR 2023-10-05 13:52:59,330 log 13764 5200 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 32, in clients_orders
+    return render(request, 'homework_3/clients_orders.html', {'customer': customer, 'orders': orders})
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homework_3/clients_orders.html
+ERROR 2023-10-05 13:52:59,332 basehttp 13764 5200 "GET /clients_order/2/ HTTP/1.1" 500 81219
+ERROR 2023-10-05 13:54:22,044 log 13764 5200 Internal Server Error: /order_full/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in order_full
+    return render(request, 'homework_3/order_full.html', {'order': order})
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homework_3/order_full.html
+ERROR 2023-10-05 13:54:22,045 basehttp 13764 5200 "GET /order_full/2/ HTTP/1.1" 500 80633
+WARNING 2023-10-05 13:54:29,797 log 13764 5200 Not Found: /order_full/
+WARNING 2023-10-05 13:54:29,798 basehttp 13764 5200 "GET /order_full/ HTTP/1.1" 404 4004
+WARNING 2023-10-05 13:55:18,881 log 13764 5200 Not Found: /order_full/
+WARNING 2023-10-05 13:55:18,882 basehttp 13764 5200 "GET /order_full/ HTTP/1.1" 404 4004
+INFO 2023-10-05 13:55:19,072 autoreload 13764 10868 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\urls.py changed, reloading.
+INFO 2023-10-05 13:55:19,548 autoreload 13756 10932 Watching for file changes with StatReloader
+ERROR 2023-10-05 13:55:20,043 log 13756 7344 Internal Server Error: /order_full/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: order_full() missing 1 required positional argument: 'order_id'
+ERROR 2023-10-05 13:55:20,044 basehttp 13756 7344 "GET /order_full/ HTTP/1.1" 500 61173
+INFO 2023-10-05 13:58:10,320 autoreload 13756 10932 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 13:58:10,847 autoreload 11028 12200 Watching for file changes with StatReloader
+WARNING 2023-10-05 13:58:13,672 log 11028 2672 Not Found: /order_full/
+WARNING 2023-10-05 13:58:13,673 basehttp 11028 2672 "GET /order_full/ HTTP/1.1" 404 4004
+ERROR 2023-10-05 13:58:25,660 log 11028 2672 Internal Server Error: /order_full/5/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in order_full
+    return render(request, 'homeworkapp_3/order_full.html', {'order': order})
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp_3/order_full.html
+ERROR 2023-10-05 13:58:25,662 basehttp 11028 2672 "GET /order_full/5/ HTTP/1.1" 500 80696
+INFO 2023-10-05 14:00:23,498 autoreload 11028 12200 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:00:23,965 autoreload 7128 14380 Watching for file changes with StatReloader
+ERROR 2023-10-05 14:00:46,779 log 7128 8004 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 31, in clients_orders
+    orders = Order.objects.filter(client=client)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id, total_price
+ERROR 2023-10-05 14:00:46,782 basehttp 7128 8004 "GET /clients_order/2/ HTTP/1.1" 500 126193
+INFO 2023-10-05 14:07:20,194 autoreload 7128 14380 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:07:20,763 autoreload 11244 5124 Watching for file changes with StatReloader
+INFO 2023-10-05 14:11:30,811 autoreload 11244 5124 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:11:31,325 autoreload 12872 14592 Watching for file changes with StatReloader
+INFO 2023-10-05 14:14:56,321 autoreload 12872 14592 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:14:56,791 autoreload 10608 7148 Watching for file changes with StatReloader
+ERROR 2023-10-05 14:14:59,652 log 10608 3672 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 31, in clients_orders
+    orders = Order.objects.filter(client_id=client_id)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client_id' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id, total_price
+ERROR 2023-10-05 14:14:59,656 basehttp 10608 3672 "GET /clients_order/2/ HTTP/1.1" 500 125164
+INFO 2023-10-05 14:17:18,439 autoreload 10608 7148 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:17:18,920 autoreload 3848 4416 Watching for file changes with StatReloader
+INFO 2023-10-05 14:17:23,359 basehttp 3848 12816 "GET /clients_order/2/ HTTP/1.1" 200 255
+INFO 2023-10-05 14:18:07,805 basehttp 3848 12816 "GET /clients_order/5/ HTTP/1.1" 200 1685
+ERROR 2023-10-05 14:18:13,450 log 3848 12816 Internal Server Error: /order_full/11/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 43, in order_full
+    return render(request, 'homeworkapp_3/order_full.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp_3/order_full.html
+ERROR 2023-10-05 14:18:13,452 basehttp 3848 12816 "GET /order_full/11/ HTTP/1.1" 500 81218
+INFO 2023-10-05 14:19:58,045 views 3848 13500 Index page accessed
+INFO 2023-10-05 14:19:58,046 basehttp 3848 13500 "GET / HTTP/1.1" 200 116
+INFO 2023-10-05 14:19:58,161 views 3848 13500 Index page accessed
+INFO 2023-10-05 14:19:58,163 basehttp 3848 13500 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 14:19:58,232 log 3848 13500 Not Found: /favicon.ico
+WARNING 2023-10-05 14:19:58,233 basehttp 3848 13500 "GET /favicon.ico HTTP/1.1" 404 4004
+ERROR 2023-10-05 14:20:10,221 log 3848 13500 Internal Server Error: /order_full/3/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 43, in order_full
+    return render(request, 'homeworkapp_3/order_full.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp_3/order_full.html
+ERROR 2023-10-05 14:20:10,223 basehttp 3848 13500 "GET /order_full/3/ HTTP/1.1" 500 81037
+ERROR 2023-10-05 14:20:24,662 log 3848 13500 Internal Server Error: /order_full/5/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 43, in order_full
+    return render(request, 'homeworkapp_3/order_full.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp_3/order_full.html
+ERROR 2023-10-05 14:20:24,663 basehttp 3848 13500 "GET /order_full/5/ HTTP/1.1" 500 81037
+WARNING 2023-10-05 14:21:02,125 log 3848 13500 Not Found: /clients_order/
+WARNING 2023-10-05 14:21:02,125 basehttp 3848 13500 "GET /clients_order/ HTTP/1.1" 404 4013
+INFO 2023-10-05 14:21:08,234 basehttp 3848 13500 "GET /clients_order/4/ HTTP/1.1" 200 1676
+INFO 2023-10-05 14:21:31,021 basehttp 3848 13500 "GET /clients_order/8/ HTTP/1.1" 200 1685
+ERROR 2023-10-05 14:21:43,294 log 3848 13500 Internal Server Error: /order_full/41/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 43, in order_full
+    return render(request, 'homeworkapp_3/order_full.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp_3/order_full.html
+ERROR 2023-10-05 14:21:43,295 basehttp 3848 13500 "GET /order_full/41/ HTTP/1.1" 500 81222
+INFO 2023-10-05 14:22:34,263 basehttp 3848 13500 "GET /clients/ HTTP/1.1" 200 1269
+INFO 2023-10-05 14:29:31,688 views 3848 3464 Index page accessed
+INFO 2023-10-05 14:29:31,688 basehttp 3848 3464 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 14:29:31,848 log 3848 3464 Not Found: /favicon.ico
+WARNING 2023-10-05 14:29:31,850 basehttp 3848 3464 "GET /favicon.ico HTTP/1.1" 404 4004
+ERROR 2023-10-05 14:29:57,850 log 3848 3464 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in clients_orders
+    return render(request, 'homeworkapp_3/clients_orders.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'else', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-10-05 14:29:57,855 basehttp 3848 3464 "GET /clients_order/2/ HTTP/1.1" 500 167339
+ERROR 2023-10-05 14:31:26,113 log 3848 3464 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in clients_orders
+    return render(request, 'homeworkapp_3/clients_orders.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'else', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-10-05 14:31:26,117 basehttp 3848 3464 "GET /clients_order/2/ HTTP/1.1" 500 167506
+ERROR 2023-10-05 14:31:29,216 log 3848 3464 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in clients_orders
+    return render(request, 'homeworkapp_3/clients_orders.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'else', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-10-05 14:31:29,220 basehttp 3848 3464 "GET /clients_order/2/ HTTP/1.1" 500 167506
+ERROR 2023-10-05 14:34:45,307 log 3848 3464 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in clients_orders
+    return render(request, 'homeworkapp_3/clients_orders.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-10-05 14:34:45,309 basehttp 3848 3464 "GET /clients_order/2/ HTTP/1.1" 500 167264
+ERROR 2023-10-05 14:34:46,429 log 3848 3464 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in clients_orders
+    return render(request, 'homeworkapp_3/clients_orders.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'else', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-10-05 14:34:46,434 basehttp 3848 3464 "GET /clients_order/2/ HTTP/1.1" 500 167264
+ERROR 2023-10-05 14:35:38,460 log 3848 3464 Internal Server Error: /clients_order/2/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 36, in clients_orders
+    return render(request, 'homeworkapp_3/clients_orders.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-10-05 14:35:38,464 basehttp 3848 3464 "GET /clients_order/2/ HTTP/1.1" 500 185829
+INFO 2023-10-05 14:42:25,622 basehttp 3848 11368 "GET /clients_order/2/ HTTP/1.1" 200 301
+INFO 2023-10-05 14:42:40,926 basehttp 3848 11368 "GET /clients_order/5/ HTTP/1.1" 200 1891
+ERROR 2023-10-05 14:42:54,587 log 3848 11368 Internal Server Error: /order_full/12/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py", line 43, in order_full
+    return render(request, 'homeworkapp_3/order_full.html', context=context)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp_3/order_full.html
+ERROR 2023-10-05 14:42:54,589 basehttp 3848 11368 "GET /order_full/12/ HTTP/1.1" 500 81218
+INFO 2023-10-05 14:53:10,856 autoreload 3848 4416 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:53:11,357 autoreload 9956 7616 Watching for file changes with StatReloader
+INFO 2023-10-05 14:53:38,987 autoreload 9956 7616 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:53:39,471 autoreload 10024 4580 Watching for file changes with StatReloader
+INFO 2023-10-05 14:54:38,646 autoreload 10024 4580 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:54:39,141 autoreload 9500 8224 Watching for file changes with StatReloader
+INFO 2023-10-05 14:57:59,326 autoreload 9500 8224 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\urls.py changed, reloading.
+INFO 2023-10-05 14:57:59,810 autoreload 3216 4060 Watching for file changes with StatReloader
+INFO 2023-10-05 14:59:36,039 autoreload 3216 4060 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 14:59:36,534 autoreload 12692 2168 Watching for file changes with StatReloader
+INFO 2023-10-05 15:00:27,847 autoreload 12692 2168 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 15:00:28,327 autoreload 14560 6824 Watching for file changes with StatReloader
+INFO 2023-10-05 15:02:51,357 autoreload 14560 6824 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 15:02:51,815 autoreload 6108 14160 Watching for file changes with StatReloader
+INFO 2023-10-05 15:03:44,100 autoreload 6108 14160 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 15:03:44,560 autoreload 3180 13952 Watching for file changes with StatReloader
+INFO 2023-10-05 15:03:49,935 views 3180 7128 Index page accessed
+INFO 2023-10-05 15:03:49,936 basehttp 3180 7128 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 15:03:50,096 log 3180 7128 Not Found: /favicon.ico
+WARNING 2023-10-05 15:03:50,096 basehttp 3180 7128 "GET /favicon.ico HTTP/1.1" 404 4197
+ERROR 2023-10-05 15:03:57,679 log 3180 7128 Internal Server Error: /clients_orders_day/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: clients_orders_day() missing 1 required positional argument: 'client_id'
+ERROR 2023-10-05 15:03:57,681 basehttp 3180 7128 "GET /clients_orders_day/ HTTP/1.1" 500 61168
+INFO 2023-10-05 15:05:15,387 autoreload 3180 13952 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\urls.py changed, reloading.
+INFO 2023-10-05 15:05:15,869 autoreload 8016 11808 Watching for file changes with StatReloader
+INFO 2023-10-05 15:05:20,338 basehttp 8016 12784 "GET /clients_orders_day/5/ HTTP/1.1" 200 2001
+INFO 2023-10-05 15:14:51,144 views 8016 13760 Index page accessed
+INFO 2023-10-05 15:14:51,145 basehttp 8016 13760 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-05 15:14:51,368 log 8016 13760 Not Found: /favicon.ico
+WARNING 2023-10-05 15:14:51,369 basehttp 8016 13760 "GET /favicon.ico HTTP/1.1" 404 4219
+INFO 2023-10-05 15:15:02,844 basehttp 8016 13760 "GET /clients_orders_day/1/ HTTP/1.1" 200 309
+INFO 2023-10-05 15:15:15,451 basehttp 8016 13760 "GET /clients_orders_day/8/ HTTP/1.1" 200 2001
+INFO 2023-10-05 15:20:54,688 autoreload 8016 11808 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 15:20:55,161 autoreload 9528 80 Watching for file changes with StatReloader
+INFO 2023-10-05 15:22:24,347 autoreload 9528 80 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-05 15:22:24,810 autoreload 1028 5052 Watching for file changes with StatReloader
+INFO 2023-10-06 10:15:12,794 autoreload 8936 7900 Watching for file changes with StatReloader
+INFO 2023-10-06 10:17:54,221 autoreload 6976 7556 Watching for file changes with StatReloader
+INFO 2023-10-06 10:19:54,355 autoreload 7500 10448 Watching for file changes with StatReloader
+INFO 2023-10-06 10:21:11,204 autoreload 9644 12624 Watching for file changes with StatReloader
+INFO 2023-10-06 10:25:06,390 autoreload 9644 12624 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp_3\views.py changed, reloading.
+INFO 2023-10-06 10:25:06,865 autoreload 10320 3812 Watching for file changes with StatReloader
+INFO 2023-10-06 10:25:10,702 views 10320 8264 Index page accessed
+INFO 2023-10-06 10:25:10,703 basehttp 10320 8264 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-06 10:25:10,948 log 10320 8264 Not Found: /favicon.ico
+WARNING 2023-10-06 10:25:10,948 basehttp 10320 8264 "GET /favicon.ico HTTP/1.1" 404 4762
+INFO 2023-10-07 01:55:24,461 autoreload 9636 11164 Watching for file changes with StatReloader
+INFO 2023-10-07 01:56:49,094 autoreload 9636 11164 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp4\urls.py changed, reloading.
+INFO 2023-10-07 01:56:49,554 autoreload 2076 260 Watching for file changes with StatReloader
+INFO 2023-10-07 01:57:42,552 autoreload 6024 12496 Watching for file changes with StatReloader
+INFO 2023-10-07 02:02:42,542 autoreload 6024 12496 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp4\views.py changed, reloading.
+INFO 2023-10-07 02:02:43,003 autoreload 2040 9256 Watching for file changes with StatReloader
+INFO 2023-10-07 02:03:50,881 autoreload 2040 9256 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp4\views.py changed, reloading.
+INFO 2023-10-07 02:03:51,342 autoreload 9668 11328 Watching for file changes with StatReloader
+INFO 2023-10-07 02:04:32,214 autoreload 9668 11328 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp4\views.py changed, reloading.
+INFO 2023-10-07 02:04:32,669 autoreload 6800 10832 Watching for file changes with StatReloader
+INFO 2023-10-07 02:04:35,234 views 6800 8868 Index page accessed
+INFO 2023-10-07 02:04:35,236 basehttp 6800 8868 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-07 02:04:35,390 log 6800 8868 Not Found: /favicon.ico
+WARNING 2023-10-07 02:04:35,391 basehttp 6800 8868 "GET /favicon.ico HTTP/1.1" 404 4573
+INFO 2023-10-07 02:05:02,546 basehttp 6800 10288 "GET /product_add/ HTTP/1.1" 200 1383
+INFO 2023-10-07 02:05:33,280 views 6800 10288 Получили name='kjhf', description='ffghjjlkl;', price=6.0, quantity=7.
+ERROR 2023-10-07 02:05:33,331 log 6800 10288 Internal Server Error: /product_add/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homeworkapp4.views.add_product didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-07 02:05:33,332 basehttp 6800 10288 "POST /product_add/ HTTP/1.1" 500 67349
+INFO 2023-10-07 02:07:39,891 basehttp 6800 10288 "GET /upload/ HTTP/1.1" 200 620
+ERROR 2023-10-07 02:07:49,034 log 6800 10288 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp4\views.py", line 35, in upload_image
+    if form.is_valid():
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 443, in _clean_fields
+    value = field.clean(value, bf.initial)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\fields.py", line 681, in clean
+    return super().clean(data)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\fields.py", line 198, in clean
+    value = self.to_python(value)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\fields.py", line 708, in to_python
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+ERROR 2023-10-07 02:07:49,047 log 6800 14816 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp4\views.py", line 35, in upload_image
+    if form.is_valid():
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 443, in _clean_fields
+    value = field.clean(value, bf.initial)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\fields.py", line 681, in clean
+    return super().clean(data)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\fields.py", line 198, in clean
+    value = self.to_python(value)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\fields.py", line 708, in to_python
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+INFO 2023-10-07 02:07:49,047 basehttp 6800 10288 - Broken pipe from ('127.0.0.1', 51379)
+ERROR 2023-10-07 02:07:49,049 basehttp 6800 14816 "POST /upload/ HTTP/1.1" 500 93991
+INFO 2023-10-07 02:18:53,373 autoreload 10160 6704 Watching for file changes with StatReloader
+INFO 2023-10-07 02:18:56,336 views 10160 9872 Index page accessed
+INFO 2023-10-07 02:18:56,337 basehttp 10160 9872 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-07 02:18:56,492 log 10160 9872 Not Found: /favicon.ico
+WARNING 2023-10-07 02:18:56,493 basehttp 10160 9872 "GET /favicon.ico HTTP/1.1" 404 4573
+INFO 2023-10-07 02:19:16,012 basehttp 10160 9872 "GET /upload/ HTTP/1.1" 200 620
+ERROR 2023-10-07 02:19:23,959 log 10160 9872 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\nmsk6\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homeworkapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-07 02:19:23,961 basehttp 10160 9872 "POST /upload/ HTTP/1.1" 500 67144

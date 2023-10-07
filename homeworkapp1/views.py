@@ -1,7 +1,18 @@
 from django.http import HttpResponse
 import logging
+from django.shortcuts import render
 
 logger = logging.getLogger(__name__)
+
+def my_index(request):
+    context = {"main":"Главная страница",
+               "text": "Здесь  данныме о моем первом Django-сайте"}
+    return render(request, "homeworkapp1/index.html", context)
+
+def my_about(request):
+    context = {"about": "О себе",
+                "text": "Здесь данные обо мне"}
+    return render(request, "homeworkapp1/about.html", context)
 
 def index(request):
     logger.info('Index page accessed')
