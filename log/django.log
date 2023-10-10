@@ -1436,3 +1436,220 @@ Traceback (most recent call last):
     raise ValueError(
 ValueError: The view homeworkapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
 ERROR 2023-10-07 02:19:23,961 basehttp 10160 9872 "POST /upload/ HTTP/1.1" 500 67144
+INFO 2023-10-10 17:04:40,662 autoreload 12928 7708 Watching for file changes with StatReloader
+INFO 2023-10-10 17:04:42,509 views 12928 10480 Index page accessed
+INFO 2023-10-10 17:04:42,510 basehttp 12928 10480 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-10 17:04:42,707 log 12928 10480 Not Found: /favicon.ico
+WARNING 2023-10-10 17:04:42,708 basehttp 12928 10480 "GET /favicon.ico HTTP/1.1" 404 4573
+INFO 2023-10-10 17:05:53,552 basehttp 12928 10480 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-10 17:05:53,603 basehttp 12928 10480 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-10 17:06:19,639 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 2023-10-10 17:06:51,523 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 2023-10-10 17:07:08,518 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 2023-10-10 17:07:30,714 basehttp 12928 10480 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-10 17:07:30,720 basehttp 12928 10480 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-10 17:08:18,824 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 2023-10-10 17:08:58,071 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 2023-10-10 17:09:20,981 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4538
+INFO 2023-10-10 17:12:18,475 autoreload 4792 15064 Watching for file changes with StatReloader
+INFO 2023-10-10 17:12:20,677 views 12928 10480 Index page accessed
+INFO 2023-10-10 17:12:20,678 basehttp 12928 10480 "GET / HTTP/1.1" 200 116
+INFO 2023-10-10 17:12:31,423 basehttp 12928 10480 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-10 17:12:31,431 basehttp 12928 10480 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-10 17:12:48,717 basehttp 12928 10480 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-10 17:12:48,733 basehttp 12928 10480 "GET /admin/ HTTP/1.1" 200 5857
+INFO 2023-10-10 17:27:51,073 autoreload 12928 7708 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\models.py changed, reloading.
+INFO 2023-10-10 17:27:51,362 autoreload 4792 15064 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\models.py changed, reloading.
+INFO 2023-10-10 17:27:51,915 autoreload 10600 7028 Watching for file changes with StatReloader
+INFO 2023-10-10 17:28:50,756 autoreload 10600 7028 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\models.py changed, reloading.
+INFO 2023-10-10 17:28:51,232 autoreload 9648 144 Watching for file changes with StatReloader
+INFO 2023-10-10 17:29:43,500 autoreload 9648 144 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\models.py changed, reloading.
+INFO 2023-10-10 17:29:43,973 autoreload 13892 13524 Watching for file changes with StatReloader
+INFO 2023-10-10 17:44:10,423 autoreload 12028 10188 Watching for file changes with StatReloader
+INFO 2023-10-10 17:44:17,342 basehttp 12028 2076 "GET /admin/ HTTP/1.1" 200 5857
+INFO 2023-10-10 17:44:18,056 basehttp 12028 2076 "GET /admin/ HTTP/1.1" 200 5857
+INFO 2023-10-10 17:44:19,963 basehttp 12028 2076 "GET /admin/auth/group/ HTTP/1.1" 200 7646
+INFO 2023-10-10 17:44:19,981 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:44:34,324 basehttp 12028 2076 "GET /admin/auth/user/ HTTP/1.1" 200 11316
+INFO 2023-10-10 17:44:34,336 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:44:58,684 basehttp 12028 2076 "GET /admin/auth/group/ HTTP/1.1" 200 7646
+INFO 2023-10-10 17:44:58,696 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:45:00,313 basehttp 12028 2076 "GET /admin/auth/group/ HTTP/1.1" 200 7646
+INFO 2023-10-10 17:45:00,323 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:45:01,439 basehttp 12028 2076 "GET /admin/auth/user/ HTTP/1.1" 200 11316
+INFO 2023-10-10 17:45:01,451 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:45:37,939 basehttp 12028 2076 "GET /admin/ HTTP/1.1" 200 5857
+INFO 2023-10-10 17:48:31,666 basehttp 12028 2076 "GET /admin/ HTTP/1.1" 200 5857
+INFO 2023-10-10 17:48:32,953 basehttp 12028 2076 "GET /admin/ HTTP/1.1" 200 5857
+INFO 2023-10-10 17:48:34,685 basehttp 12028 2076 "GET /admin/auth/user/ HTTP/1.1" 200 11316
+INFO 2023-10-10 17:48:34,700 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:48:36,440 basehttp 12028 2076 "GET /admin/auth/group/ HTTP/1.1" 200 7646
+INFO 2023-10-10 17:48:36,452 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:48:48,421 basehttp 12028 2076 "GET /admin/auth/group/add/ HTTP/1.1" 200 14918
+INFO 2023-10-10 17:48:48,434 basehttp 12028 2076 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:51:12,912 autoreload 12028 10188 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\admin.py changed, reloading.
+INFO 2023-10-10 17:51:13,546 autoreload 6904 5564 Watching for file changes with StatReloader
+INFO 2023-10-10 17:57:22,782 views 6904 13016 Index page accessed
+INFO 2023-10-10 17:57:22,784 basehttp 6904 13016 "GET / HTTP/1.1" 200 116
+INFO 2023-10-10 17:57:23,319 autoreload 6904 5564 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\admin.py changed, reloading.
+INFO 2023-10-10 17:57:23,853 autoreload 14876 8956 Watching for file changes with StatReloader
+INFO 2023-10-10 17:57:30,843 views 14876 13836 Index page accessed
+INFO 2023-10-10 17:57:30,844 basehttp 14876 13836 "GET / HTTP/1.1" 200 116
+WARNING 2023-10-10 17:57:30,969 log 14876 13836 Not Found: /favicon.ico
+WARNING 2023-10-10 17:57:30,970 basehttp 14876 13836 "GET /favicon.ico HTTP/1.1" 404 4573
+INFO 2023-10-10 17:57:39,024 basehttp 14876 13836 "GET /admin/ HTTP/1.1" 200 7974
+INFO 2023-10-10 17:57:45,127 basehttp 14876 13836 "GET /admin/homeworkapp5/category/ HTTP/1.1" 200 8846
+INFO 2023-10-10 17:57:45,141 basehttp 14876 13836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:57:48,956 basehttp 14876 13836 "GET /admin/homeworkapp5/client/ HTTP/1.1" 200 8832
+INFO 2023-10-10 17:57:48,969 basehttp 14876 13836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:57:50,658 basehttp 14876 13836 "GET /admin/homeworkapp5/order/ HTTP/1.1" 200 8825
+INFO 2023-10-10 17:57:50,669 basehttp 14876 13836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 17:57:52,197 basehttp 14876 13836 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 10461
+INFO 2023-10-10 17:57:52,208 basehttp 14876 13836 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:19:30,276 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 10461
+INFO 2023-10-10 21:19:30,291 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:19:39,686 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15105
+INFO 2023-10-10 21:19:39,700 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:19:43,463 basehttp 14876 11348 "GET /admin/homeworkapp5/category/add/ HTTP/1.1" 200 9687
+INFO 2023-10-10 21:19:43,475 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:19:54,902 basehttp 14876 11348 "POST /admin/homeworkapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:19:54,914 basehttp 14876 11348 "GET /admin/homeworkapp5/category/add/ HTTP/1.1" 200 9983
+INFO 2023-10-10 21:19:54,926 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:20:00,549 basehttp 14876 11348 "POST /admin/homeworkapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:20:00,566 basehttp 14876 11348 "GET /admin/homeworkapp5/category/ HTTP/1.1" 200 10546
+INFO 2023-10-10 21:20:00,579 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:20:09,514 basehttp 14876 11348 "GET /admin/homeworkapp5/category/add/ HTTP/1.1" 200 9687
+INFO 2023-10-10 21:20:09,526 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:20:31,542 basehttp 14876 11348 "POST /admin/homeworkapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:20:31,556 basehttp 14876 11348 "GET /admin/homeworkapp5/category/ HTTP/1.1" 200 10774
+INFO 2023-10-10 21:20:31,569 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:20:41,237 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15232
+INFO 2023-10-10 21:20:41,249 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:22:04,174 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:22:04,190 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 13414
+INFO 2023-10-10 21:22:04,203 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:22:38,220 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15232
+INFO 2023-10-10 21:22:38,233 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:23:15,560 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:23:15,576 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15673
+INFO 2023-10-10 21:23:15,589 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:23:45,819 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:23:45,835 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 14110
+INFO 2023-10-10 21:23:45,862 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:23:45,879 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 14405
+INFO 2023-10-10 21:23:45,892 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:23:51,349 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15232
+INFO 2023-10-10 21:23:51,361 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:24:28,014 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15444
+INFO 2023-10-10 21:24:28,027 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:24:33,627 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:24:33,643 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15667
+INFO 2023-10-10 21:24:33,656 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:25:05,795 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:25:05,809 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15654
+INFO 2023-10-10 21:25:05,823 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:25:34,598 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:25:34,616 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 15469
+INFO 2023-10-10 21:25:34,629 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:25:38,447 basehttp 14876 11348 "GET /admin/homeworkapp5/product/6/change/ HTTP/1.1" 200 15926
+INFO 2023-10-10 21:25:38,460 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:25:44,420 basehttp 14876 11348 "POST /admin/homeworkapp5/product/6/change/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:25:44,438 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 15481
+INFO 2023-10-10 21:25:44,451 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:25:58,881 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15232
+INFO 2023-10-10 21:25:58,894 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:26:31,345 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:26:31,361 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15655
+INFO 2023-10-10 21:26:31,375 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:27:02,627 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:27:02,645 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 16212
+INFO 2023-10-10 21:27:02,658 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:27:14,862 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/ HTTP/1.1" 200 15232
+INFO 2023-10-10 21:27:14,874 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:27:48,810 basehttp 14876 11348 "POST /admin/homeworkapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:27:48,829 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 16577
+INFO 2023-10-10 21:27:48,842 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:28:12,863 basehttp 14876 11348 "GET /admin/homeworkapp5/client/add/ HTTP/1.1" 200 11576
+INFO 2023-10-10 21:28:12,876 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:28:29,729 basehttp 14876 11348 "GET /admin/homeworkapp5/order/ HTTP/1.1" 200 8825
+INFO 2023-10-10 21:28:29,742 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:28:34,655 basehttp 14876 11348 "GET /admin/homeworkapp5/order/add/ HTTP/1.1" 200 14982
+INFO 2023-10-10 21:28:34,668 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:28:45,584 basehttp 14876 11348 "GET /admin/homeworkapp5/client/add/ HTTP/1.1" 200 11576
+INFO 2023-10-10 21:28:45,596 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:29:56,335 basehttp 14876 11348 "POST /admin/homeworkapp5/client/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:29:56,349 basehttp 14876 11348 "GET /admin/homeworkapp5/client/ HTTP/1.1" 200 10515
+INFO 2023-10-10 21:29:56,362 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:30:03,867 basehttp 14876 11348 "GET /admin/homeworkapp5/order/ HTTP/1.1" 200 8825
+INFO 2023-10-10 21:30:03,879 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:30:05,770 basehttp 14876 11348 "GET /admin/homeworkapp5/order/add/ HTTP/1.1" 200 15128
+INFO 2023-10-10 21:30:05,783 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:30:16,464 basehttp 14876 11348 "GET /admin/homeworkapp5/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 10032
+INFO 2023-10-10 21:30:16,477 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:30:30,281 basehttp 14876 11348 "POST /admin/homeworkapp5/order/add/ HTTP/1.1" 200 15282
+INFO 2023-10-10 21:30:30,294 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:30:37,366 basehttp 14876 11348 "POST /admin/homeworkapp5/order/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:30:37,387 basehttp 14876 11348 "GET /admin/homeworkapp5/order/ HTTP/1.1" 200 11000
+INFO 2023-10-10 21:30:37,399 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:30:55,817 basehttp 14876 11348 "GET /admin/auth/group/add/ HTTP/1.1" 200 16449
+INFO 2023-10-10 21:30:55,831 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:31:25,361 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 16228
+INFO 2023-10-10 21:31:25,374 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:31:27,206 basehttp 14876 11348 "GET /admin/homeworkapp5/product/1/change/ HTTP/1.1" 200 15978
+INFO 2023-10-10 21:31:27,219 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:31:34,959 basehttp 14876 11348 "GET /admin/auth/group/add/ HTTP/1.1" 200 16449
+INFO 2023-10-10 21:31:34,972 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:33:09,128 basehttp 14876 11348 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:33:09,145 basehttp 14876 11348 "GET /admin/auth/group/ HTTP/1.1" 200 10674
+INFO 2023-10-10 21:33:09,159 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:33:19,704 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 16228
+INFO 2023-10-10 21:33:19,716 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:33:21,454 basehttp 14876 11348 "GET /admin/homeworkapp5/product/1/change/ HTTP/1.1" 200 15978
+INFO 2023-10-10 21:33:21,467 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:33:43,473 basehttp 14876 11348 "GET /admin/auth/group/add/ HTTP/1.1" 200 16449
+INFO 2023-10-10 21:33:43,486 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:34:48,705 basehttp 14876 11348 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:34:48,720 basehttp 14876 11348 "GET /admin/auth/group/ HTTP/1.1" 200 10877
+INFO 2023-10-10 21:34:48,734 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:34:58,118 basehttp 14876 11348 "GET /admin/auth/user/add/ HTTP/1.1" 200 12524
+INFO 2023-10-10 21:34:58,133 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:35:22,745 basehttp 14876 11348 "GET /admin/homeworkapp5/category/add/ HTTP/1.1" 200 9687
+INFO 2023-10-10 21:35:22,758 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:35:26,902 basehttp 14876 11348 "GET /admin/homeworkapp5/category/ HTTP/1.1" 200 10550
+INFO 2023-10-10 21:35:26,915 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:35:39,845 views 14876 11348 Index page accessed
+INFO 2023-10-10 21:35:39,846 basehttp 14876 11348 "GET / HTTP/1.1" 200 116
+INFO 2023-10-10 21:36:00,498 basehttp 14876 11348 "GET /admin/ HTTP/1.1" 200 12060
+INFO 2023-10-10 21:36:03,751 basehttp 14876 11348 "GET /admin/auth/user/add/ HTTP/1.1" 200 12524
+INFO 2023-10-10 21:36:03,767 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:37:01,005 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 200 12852
+INFO 2023-10-10 21:37:01,027 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 200 12852
+INFO 2023-10-10 21:37:01,040 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:37:39,046 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 200 12852
+INFO 2023-10-10 21:37:39,059 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:37:59,036 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 200 12852
+INFO 2023-10-10 21:37:59,049 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:38:31,907 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 200 12852
+INFO 2023-10-10 21:38:31,921 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:39:13,572 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 200 12853
+INFO 2023-10-10 21:39:13,585 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:39:41,239 basehttp 14876 11348 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:39:41,277 basehttp 14876 11348 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 27183
+INFO 2023-10-10 21:39:41,293 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:40:56,108 basehttp 14876 11348 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-10-10 21:40:56,126 basehttp 14876 11348 "GET /admin/auth/user/ HTTP/1.1" 200 13879
+INFO 2023-10-10 21:40:56,140 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:41:33,428 basehttp 14876 11348 "GET /admin/homeworkapp5/category/ HTTP/1.1" 200 10550
+INFO 2023-10-10 21:41:33,441 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:41:35,129 basehttp 14876 11348 "GET /admin/homeworkapp5/client/ HTTP/1.1" 200 10194
+INFO 2023-10-10 21:41:35,140 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:41:36,974 basehttp 14876 11348 "GET /admin/homeworkapp5/order/ HTTP/1.1" 200 10434
+INFO 2023-10-10 21:41:36,988 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:41:38,808 basehttp 14876 11348 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 16228
+INFO 2023-10-10 21:41:38,821 basehttp 14876 11348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:46:45,545 autoreload 14876 8956 C:\Users\nmsk6\PycharmProjects\djangohomework\homeworkapp5\admin.py changed, reloading.
+INFO 2023-10-10 21:46:46,916 autoreload 8248 6680 Watching for file changes with StatReloader
+INFO 2023-10-10 21:46:47,422 basehttp 8248 7560 "GET /admin/homeworkapp5/product/ HTTP/1.1" 200 16228
+INFO 2023-10-10 21:46:47,436 basehttp 8248 7560 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-10 21:46:48,652 basehttp 8248 7560 "GET /admin/homeworkapp5/client/ HTTP/1.1" 200 10469
+INFO 2023-10-10 21:46:48,664 basehttp 8248 7560 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
